@@ -1,5 +1,9 @@
 <html>
 
+<head>
+<title>Personal Closet Organizer</title>
+</head>
+
 <div id="users">
   <ul class="all">
     <li>
