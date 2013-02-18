@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<h1>Personal Closet Organizer</h1>
+<h1>Digital Closet Organizer</h1>
 </head>
 
 <div>
