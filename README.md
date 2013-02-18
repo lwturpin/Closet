@@ -4,6 +4,8 @@
 <title>Personal Closet Organizer</title>
 </head>
 
+<div>
+<h1>Users</h1>
 <div id="users">
   <ul class="all">
     <li>
