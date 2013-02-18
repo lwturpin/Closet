@@ -14,5 +14,16 @@
   </ul>
 </div>  
 
+<div  id="queries"> 
+  <ul> 
+    <li><a  rel="messages-all index" href="..." title="Home page">Home</a></li> 
+    <li><a  rel="users-all" href="..." title="User list">Users</a></li> 
+    <li><a  rel="register" href="..." title="Register">Register</a></li> 
+  </ul> 
+</div> 
+
+
+
+
 </html>
 ======
