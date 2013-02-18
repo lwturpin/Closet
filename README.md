@@ -4,7 +4,7 @@
 <div id="users">
   <ul class="all">
     <li>
-      <span class="user text">User1</span>
+      <span class="user text">Lauren</span>
     </li>
   </ul>
 </div>  
