@@ -1,11 +1,11 @@
 <html>
 
 <head>
-<title>Personal Closet Organizer</title>
+<h1>Personal Closet Organizer</h1>
 </head>
 
 <div>
-<h1>Users</h1>
+<title><b>Users</b></title>
 <div id="users">
   <ul class="all">
     <li>
