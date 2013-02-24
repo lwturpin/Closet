@@ -46,7 +46,7 @@
 <li>item[embellishment] - Any embellishment on the item (glitter, rhinestone, fringe, etc.); applied to an INPUT[text] element.</li>
 <li>item[size] - Size of the item; applied to an INPUT[text] element.</li>
 <li>item[notes] - User notes of the item; applied to a TEXTAREA element.</li>
-<li>item[year] - Year the item was purchased; applied to an INPUT[text] element.</li>
+<li>item[date] - Year the item was purchased; applied to an INPUT[text] element.</li>
 <li>item[price] - Price of the item; applied to an INPUT[text] element.</li>
 <li>item[place] - Place item was purchased; applied to an INPUT[text] element.</li>
 <li>item[related] - Related items; applied to SELECT[option] element listing all other items in the personal closet.</li>
