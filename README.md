@@ -22,6 +22,16 @@
 <ul>
 <li>SearchCloset - Search for an item in your personal closet; applied to a FORM tag.</li>
 <li>SearchInventory - Search the global inventory collection; applied to a FORM tag.</li>
+<li>designer - Name of the Designer; applied to a SPAN tag.</li>
+<li>color - Color of the item; applied to a SPAN tag.</li>
+<li>accessorytitle - Title of the accessory; applied to a SPAN tag.</li>
+<li>shoetitle - Title of the shoes; applied to a SPAN tag.</li>
+<li>clothingtitle - Title of the clothing; applied to a SPAN tag.</li>
+<li>accessorysize - Size of the accessory; applied to a SPAN tag.</li>
+<li>shoesize - Size of the shoes; applied to a SPAN tag.</li>
+<li>clothingsize - Size of the article of clothing; applied to a SPAN tag.</li>
+<li>keyword - Words from the description; applied to a SPAN tag.</li>
+<li>subcategory - The subcategory of the item; applied to a SPAN tag.</li>
 </ul>
 
 
