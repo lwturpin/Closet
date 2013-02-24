@@ -32,6 +32,8 @@
 <li>clothingsize - Size of the article of clothing; applied to a SPAN tag.</li>
 <li>keyword - Words from the description; applied to a SPAN tag.</li>
 <li>subcategory - The subcategory of the item; applied to a SPAN tag.</li>
+<li>allitems - The list of all items in the global inventory collection; applied to a SPAN tag.</li>
+<li>myitems - The list of all items in your personal closet; applied to a SPAN tag.</li>
 </ul>
 
 
