@@ -1,9 +1,44 @@
-<!DOCTYPE html>
+!DOCTYPE html
 <html>
 
-<body>
 <h1>Accessories<h1>
-<p>Accessories include Jewelry, Scarves, Purses, Hats, Belts and Gloves.<p>
-</body>
-
-</html>
+<h2>Accessories include Jewelry, Scarves, Purses, Hats, Belts and Gloves.<h2>
+<hr></hr>
+<h3>Find an Item:</h3><form method="GET" action="/accessory">
+Subcategory: 
+<select name="subcategory">
+<option value="null">Select</option>  
+<option value="jewelry">Jewelry</option>
+  <option value="scarves">Scarves</option>
+  <option value="hats">Hats</option>
+  <option value="belts">Belts</option>
+<option value="gloves">Gloves</options>
+</select> </br>
+  	Accessory title: <input name="accessorytitle" type="text" /> <br />
+		Designer: <input name="designer" type="text" />
+		Color: <input name="color" type="text" /> <br />
+		Size: <input name="accessorysize" type="text" /> <br />
+		Key Word: <input name="keyword" type="text" /> <br />
+		
+		<input type="submit" />
+	</form>
+<hr></hr>
+<h3>Add new Accessory:</h3><form method="POST" action="/accessory">
+Subcategory: <select name="subcategory"
+<select name="subcategory">
+<option value="null">Select</option>  
+<option value="jewelry">Jewelry</option>
+  <option value="scarves">Scarves</option>
+  <option value="hats">Hats</option>
+  <option value="belts">Belts</option>
+<option value="gloves">Gloves</options>
+</select>
+Accessory title: <input name="accessorytitle" type="text" /> <br />
+		Designer: <input name="designer" type="text" /> Color: <input name="color" type="text" /> Size: <input name="size" type="text" /> <br />
+		Purchase Date: <input name="date" type="text" /> Purchase Place: <input name="place" type="text" /> Price: <input name="price" /><br/>
+		Description: <input name="description" type="textarea" /> <br />
+Embellishment: <input name="embellishment" type="text" /> <br/>
+Notes: <input name="notes" type="text" /> <br/>
+Related Items: <select multiple:"related">
+<a>https://github.com/lwturpin/Closet/mycloset.html</a> </br>
+		<input type="submit" />
