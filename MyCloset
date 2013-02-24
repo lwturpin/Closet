@@ -1,0 +1,22 @@
+!DOCTYPE HTML'
+<html>
+<title>My Closet</title>
+<h1>Clothing</h1>
+<ul>
+<li>Tops</li>
+<li>Bottoms</li>
+<li>Dresses</li>
+</ul>
+
+<h1>Shoes</h1>
+<ul>
+<li>Flats</li>
+<li>Heels</li>
+</ul>
+
+<h1>Accessories</h1>
+<ul>
+<li>Belts</li>
+<li>Hats</li>
+</ul>
+</html>
