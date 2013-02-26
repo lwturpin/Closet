@@ -14,18 +14,18 @@ This service is a digital closet for people to record, organize, manage, analyze
 ## Class Attribute Values ##
 * SearchCloset - Search for an item in your personal closet; applied to a FORM tag.
 * SearchInventory - Search the global inventory collection; applied to a FORM tag.
-* designer - Name of the Designer; applied to a SPAN tag.
-* color - Color of the item; applied to a SPAN tag.
-* accessorytitle - Title of the accessory; applied to a SPAN tag.
-* shoetitle - Title of the shoes; applied to a SPAN tag.
-* clothingtitle - Title of the clothing; applied to a SPAN tag.
-* accessorysize - Size of the accessory; applied to a SPAN tag.
-* shoesize - Size of the shoes; applied to a SPAN tag.
-* clothingsize - Size of the article of clothing; applied to a SPAN tag.
-* keyword - Words from the description; applied to a SPAN tag.
-* subcategory - The subcategory of the item; applied to a SPAN tag.
-* allitems - The list of all items in the global inventory collection; applied to a SPAN tag.
-* myitems - The list of all items in your personal closet; applied to a SPAN tag.
+* designer - Name of the Designer.
+* color - Color of the item.
+* accessorytitle - Title of the accessory.
+* shoetitle - Title of the shoes.
+* clothingtitle - Title of the clothing.
+* accessorysize - Size of the accessory.
+* shoesize - Size of the shoes.
+* clothingsize - Size of the article of clothing.
+* keyword - Words from the description.
+* subcategory - The subcategory of the item.
+* allitems - The list of all items in the global inventory collection.
+* myitems - The list of all items in your personal closet.
 
 ## Name Attribute Values ##
 * item[type] - Use SELECT[option] to identify the type: Accessory, Clothing, Shoes
