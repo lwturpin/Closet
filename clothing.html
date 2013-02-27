@@ -1,11 +1,59 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Clothing</title>
+<title>Clothing</title>
 </head>
+
 <body>
-<h1>Clothing</h1>
+<h2>Clothing</h2>
+<a rel="mycloset" href="http://digitalcloset.com/mycloset">Home</a>
+<h3>Add New Clothing</h3>
+<h3>First, Search the Global Inventory Collection</h3>
+<form method="post" action="http://digitalcloset.com/find?q={clothing}{+title}{+designer}{+color}">
+Designer:<input text="designer" />
+<br>Title:<input text="title" />
+<br>Color:<input text="color" />
+<br><input type="submit"/>
+<!-- If an item is returned that matches user needs, will be a button to add to their closet with specific information for their needs, using the POST method -->
+</form>
+<h3>Can't find it? Add New Clothing</h3>
+<form method="post" action="http://digitalcloset.com/{inventory#}">
+Category:<select name="classification">
+<option value="">Select</option>
+<option value="clothing" selected>Clothing</option>
+<option value="shoes">Shoes</option>
+<option value="accessories">Accessories</option>
+</select>or <form method="post" action="http://digitalcloset.com/mycloset/shoes/">New:<input type="text">
+<br>
+Title:<input text="title"/>
+Designer:<input text="designer" />
+<br>Color:<input text="color" />
+<br><input type="submit"/>
+<!-- upon clicking submit user will be returned a successful add -->
+</form>
 <hr>
-<p>Clothing inventory is collected by participating designers and users. To avoid a cumbersome search, categories are standardized and users may add as they see fit.<p>
+<h4>All My Clothing</h4>
+<link rel="myclothing" href="http://digitalcloset.com/mycloset/clothing">
+<!-- source link will display all shoes in the following format -->
+<br>Title:<div id="itemtitle">
+<div id="itemimg">
+<div id="uri">
+<img src="http://digitalcloset.com/{inventory#}.jpg" id="imgdesc"
+</div>
+<div id="itemtextglobal">
+<li hidden>ID:<id name=itemid"></li>
+<li>Category:<id name="classification"></li>
+<li>Description:<id name="description"></li>
+<li>Designer:<id name="designer"></li>
+<li>Color:<id name="color"></li>
+<li>Embellishment:<id name="color"></li>
+</div>
+<div id="itemtextcloset">
+<li>Subcategory:<id name="subcategory"></li>
+<li>Size:<id name="size"></li>
+<li>Date Purchased:<id name="date"></li>
+<li>Place Purchased:<id name="place"></li>
+<li>Price:<id name="place"></li>
+<li>Notes:<id name="notes"></li
+</div>
 </body>
-<html>
+</html>
