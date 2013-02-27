@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Queries</title>
+</head>
+
+<body>
+<h3>Search My Closet</h3>
+<form method="post" action="http://digitalcloset.com/find?q={classification}{+designer}{+color}">
+Category:<select name="classification">
+<option value="">Select</option>
+<option value="clothing">Clothing</option>
+<option value="shoes">Shoes</option>
+<option value="accessories">Accessories</option>
+</select>
+<br>Designer:<input text="designer" />
+<br>Color:<input text="color" />
+<br><input type="submit"/>
+</form>
+<h3>Search by Title</h3>
+<form name="searchcloset" action="http://digitalcloset.com/find?q{title}">
+<input name="search-title" value=""/>
+<input type="submit"/>
+</form>
+<hr>
+<h3>View My Closet</h3>
+<form method="get" action"http://digitalcloset.com/mycloset/clothing" class="myclothing"><input type="radio">All Clothing
+<br>
+<form method="get" action"http://digitalcloset.com/mycloset/shoes" class="myshoes"><input type="radio">All Shoes
+<br>
+<form method="get" action"http://digitalcloset.com/mycloset/accessories" class="myaccessories"><input type="radio">All Accessories
+<br>
+<form method="get" action"http://digitalcloset.com/mycloset" class="mycloset"><input type="radio">View All
+<br>
+<input type="submit">
+</form>
+<hr>
+<h3>Search the Global Inventory Collection</h3>
+<form method="post" action="http://digitalcloset.com/find?q={classification}{+designer}{+color}">
+Category:<select name="classification">
+<option value="">Select</option>
+<option value="clothing">Clothing</option>
+<option value="shoes">Shoes</option>
+<option value="accessories">Accessories</option>
+</select>
+<br>Designer:<input text="designer" />
+<br>Color:<input text="color" />
+<br><input type="submit"/>
+</form>
+<br>
+<h3>Search by Title</h3>
+<form name="searchinventory" action="http://digitalcloset.com/find?q={title}">
+<input name="search-title" value=""/>
+<input type="submit"/>
+</form>
+<hr>
+<h3>View the Global Inventory Collection</h3>
+<form method="get" action"http://digitalcloset.com/allitems/clothing" class="clothing"><input type="radio">All Clothing
+<br>
+<form method="get" action"http://digitalcloset.com/allitems/shoes" class="shoes"><input type="radio">All Shoes
+<br>
+<form method="get" action"http://digitalcloset.com/allitems/accessories" class="accessories"><input type="radio">All Accessories
+<br>
+<form method="get" action"http://digitalcloset.com/allitems" class="allitems"><input type="radio">View All
+<br>
+<input type="submit">
+</form>
+</body>
+</html>

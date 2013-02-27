@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>My Closet</title>
+</head>
+
+<body>
+<h2>Welcome to your Personal Digital Closet Organizer!</h2>
+<br>
+This is only a sample. If you wish to create your own Closet, return to the <a href="http://digitalcloset.com/mycloset">Home</a> page.
+<form>
+<h3>Search My Closet</h3>
+<form name="samplemycloset">
+Category:<select name="classification">
+<option value="">Select</option>
+<option value="clothing">Clothing</option>
+<option value="shoes">Shoes</option>
+<option value="accessories">Accessories</option>
+</select>
+<br>Designer:<input readonly="designer" placeholder="Michael Kors"/>
+<br>Color:<input readonly="color" placeholder="Navy"/>
+<br><input type="submit"/>
+</form>
+<h3>Search by Title</h3>
+<form name="sampletitle">
+<input readonly="title" value=""/>
+<input type="submit"/>
+</form>
+<hr>
+<h3>View My Closet</h3>
+<form name="samplemyall"><input type="radio">All Clothing
+<br>
+<form name="samplemyall"><input type="radio">All Shoes
+<br>
+<form name="samplemyall"><input type="radio">All Accessories
+<br>
+<form name="samplemyall"><input type="radio">View All
+<br>
+<input type="submit">
+</form>
+<hr>
+<h3>Search the Global Inventory Collection</h3>
+<form name="sampleallitems">
+Category:<select name="classification">
+<option value="">Select</option>
+<option value="clothing">Clothing</option>
+<option value="shoes">Shoes</option>
+<option value="accessories">Accessories</option>
+</select>
+<br>Designer:<input readonly="designer" placeholder="Cole Haan/>
+<br>Color:<input readonly="color" placeholder="Yellow'/>
+<br><input type="submit"/>
+</form>
+<h3>Search by Title</h3>
+<form name="sampletitle">
+<input readonly=""/>
+<input type="submit"/>
+<hr>
+<h3>View the Global Inventory Collection</h3>
+<form name="sampleall"><input type="radio">All Clothing
+<br>
+<form name="sampleall"><input type="radio">All Shoes
+<br>
+<form name="sampleall"><input type="radio">All Accessories
+<br>
+<form name="sampleall"><input type="radio">View All
+<br>
+<input type="submit">
+</form>
+<hr>
+<h2>Sample <i>My Closet</i> Home Page</h2>
+Once you have selected one of the above, you will see the following:
+<h3><center>Clothing, Shoes or Accessories</center></h3>
+<a rel="mycloset" href="http://digitalcloset.com/mycloset">Home</a>
+<h3>Add New Shoes</h3><i>Add new shoes to your closet. Start with the basics and you can add more information later. At the bottom, you will see all of your shoes currently in your closet.</i>
+<form method="post" action="http://digitalcloset.com/mycloset/shoes">
+Subcategory:<select name="subcategory">
+<option value="">Select</option>
+<option value="flats">Flats</option>
+<option value="heels">Heels</option>
+<option value="boots">Boots</option>
+</select>or <form name="sampleadd">New:<input readonly="text">
+<br>
+Title:<input readonly="shoetitle"/>
+Designer:<input readonly="designer" />
+<br>Color:<input readonly="color" />
+<br><input type="submit"/>
+</form>
+<hr>
+<h4>All My Shoes</h4>
+<embed src="sample.gif">
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Clothing Update</title>
+</head>
+<!-- user will be directed here from the individual inventory page when selecting to 'update' -->
+<body>
+<h2>Clothing</h2>
+<a rel="mycloset" href="http://digitalcloset.com/mycloset">Home</a>
+<br><a rel="myclosetclothing" href="http://digitalcloset.com/mycloset/clothing">Clothing Home</a>
+
+<hr>
+<h3>Update an Article of Clothing</h3>
+<form method="put" action="http://digitalcloset.com/mycloset/{inventory#}">
+Subcategory: <select name="subcategory"
+<select name="subcategory">
+<option value="null">Select</option>  
+<option value="tops">Tops</option>
+  <option value="bottoms">Bottoms</option>
+  <option value="dresses">Dresses</option>
+</select> or <form method="post" action="http://digitalcloset.com/mycloset/clothing/">New:<input type="text">
+<br>Shoes title: <input text="clothingtitle"/> <br />
+Designer: <input name="designer" type="text" />
+Color: <input name="color"  type="text"/>
+Size: <input name="size"  type="text"/> <br />
+Purchase Date: <input name="date" type="date"/>
+Purchase Place: <input name="place" type="text"/>
+Price: <input name="price"  type="text"/><br/>
+Description: <textarea rows="4" cols #50"></textarea> <br />
+Embellishment: <input name="embellishment" type="text" /> <br/>
+Notes: <input name="notes" type="text" /> <br/>
+<input type="submit"><br>
+<br>
+<br>
+<h3>Remove from My Closet</h3>
+<form method="delete" action="http://digitalcloset.com/mycloset/{inventory#}">
+<i>By clicking 'Submit' you will remove this item from your closet but the item will remain in the Global Inventory Collection.</i>
+<!-- future functionality will record why the item was removed for better historical tracking -->
+<input type="submit">
+</form>
+<hr>
+<center><embed src="http://digitalcloset.com/mycloset/clothing/{inventory#}.img"></center>
+
+</body>
+</html>

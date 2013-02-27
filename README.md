@@ -47,4 +47,8 @@ This service is a digital closet for people to record, organize, manage, analyze
 * Designer - Link to a designer's home page; applied to an 'a href' tag.
 * Closet - Link to the personal closet home page; applied to an 'a href' tag.
 * Home - Link to the Digital Closet home page; applied to an 'a href' tag.
+<<<<<<< HEAD
 * Sample - Link to a sample "My Closet" page; applied to an 'a rel' tag.
+=======
+* Sample - Link to a sample "My Closet" page; applied to an 'a rel' tag.
+>>>>>>> Added new files
