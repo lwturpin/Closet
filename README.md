@@ -7,30 +7,31 @@ This service is a digital closet for people to record, organize, manage, analyze
 * Search My Closet: Query used to locate an item in your closet. Applied to a FORM to search.
 * Search The Inventory: Query the global inventory collection to locate an item that does not yet exist in your personal closet. Applied to a FORM for search.
 * Update Item: Use a FORM to update an existing item in your closet.
-* Update The Inventory: Use a FORM to update an item in the global inventory collection. Requires permission.
-* Add a Subcategory to My Closet: Use a FORM to add a subcategory from your closet. You cannot add categories.
-* Remove a Subcategory from My Closet: Use a FORM to delete a subcategory from your closet. You cannot delete categories from the global inventory collection.
+* Add a Subcategory to My Closet: Use a FORM to add a subcategory from your closet. You cannot add classifications.
+* Remove a Subcategory from your Closet: Use a FORM to remove.
 
 ## Class Attribute Values ##
 * SearchCloset - Search for an item in your personal closet; applied to a FORM tag.
 * SearchInventory - Search the global inventory collection; applied to a FORM tag.
+* classification - Classification of an item (shoes, clothing or accessories).
 * designer - Name of the Designer.
 * color - Color of the item.
-* accessorytitle - Title of the accessory.
-* shoetitle - Title of the shoes.
-* clothingtitle - Title of the clothing.
-* accessorysize - Size of the accessory.
-* shoesize - Size of the shoes.
-* clothingsize - Size of the article of clothing.
+* title - Title of the item.
+* size - Size of the item.
 * keyword - Words from the description.
 * subcategory - The subcategory of the item.
 * allitems - The list of all items in the global inventory collection.
-* myitems - The list of all items in your personal closet.
+* myitems - The of all items in your closet.
+* itemimg - Image of the item; applied to a DIV tag.
+* imgdesc - Description of image
+* itemtext - Details of an item
 
 ## Name Attribute Values ##
+* item[ID] - Unique identifier for each item 
 * item[type] - Use SELECT[option] to identify the type: Accessory, Clothing, Shoes
-* item[title] - Brief title for the item (40 characters or less); applied to an INPUT[text] element.
-* item[subcategory] - Use SELECT[option] to identify the subcategory. This is separated by system and user-generated.
+* item[title] - Brief title for the item; applied to an INPUT[text] element.
+* item[classification] - Classification of an item; applied to a SELECT[option] element.
+* item[subcategory] - Use SELECT[option] to identify the subcategory.
 * item[designer] - The designer of the item; applied to an INPUT[text] element.
 * item[color] - The color of the item; applied to an INPUT[text] element.
 * item[description] - Description of the item; applied to a TEXTAREA element.
@@ -40,10 +41,10 @@ This service is a digital closet for people to record, organize, manage, analyze
 * item[date] - Year the item was purchased; applied to an INPUT[text] element.
 * item[price] - Price of the item; applied to an INPUT[text] element.
 * item[place] - Place item was purchased; applied to an INPUT[text] element.
-* item[related] - Related items; applied to SELECT[option] element listing all other items in the personal closet.
 
 ## Rel Attribute Values ##
 * Item - Link to a particular item; applied to an 'a href' tag.
 * Designer - Link to a designer's home page; applied to an 'a href' tag.
 * Closet - Link to the personal closet home page; applied to an 'a href' tag.
 * Home - Link to the Digital Closet home page; applied to an 'a href' tag.
+* Sample - Link to a sample "My Closet" page; applied to an 'a rel' tag.
