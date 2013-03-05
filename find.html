@@ -18,21 +18,17 @@ Category:<select name="classification">
 </form>
 <h3>Search by Title</h3>
 <form name="searchcloset" action="http://digitalcloset.com/find?q{title}">
-<input name="search-title" value=""/>
-<input type="submit"/>
+	<input name="search-title" value=""/>
+	<input type="submit"/>
 </form>
 <hr>
 <h3>View My Closet</h3>
-<form method="get" action"http://digitalcloset.com/mycloset/clothing" class="myclothing"><input type="radio">All Clothing
-<br>
-<form method="get" action"http://digitalcloset.com/mycloset/shoes" class="myshoes"><input type="radio">All Shoes
-<br>
-<form method="get" action"http://digitalcloset.com/mycloset/accessories" class="myaccessories"><input type="radio">All Accessories
-<br>
-<form method="get" action"http://digitalcloset.com/mycloset" class="mycloset"><input type="radio">View All
-<br>
-<input type="submit">
-</form>
+<ul class="queries">
+	<li class="query"><a href="http://digitalcloset.com/mycloset/clothing" rel="myclothing">All Clothing</a></li>
+	<li class="query"><a href="http://digitalcloset.com/mycloset/shoes" rel="myshoes">All Shoes</a></li>
+	<li class="query"><a href="http://digitalcloset.com/mycloset/accessories" rel="myaccessories">All Accessories</a></li>
+	<li class="query"><a href="http://digitalcloset.com/mycloset" rel="mycloset">View All</a></li>
+</ul>	
 <hr>
 <h3>Search the Global Inventory Collection</h3>
 <form method="post" action="http://digitalcloset.com/find?q={classification}{+designer}{+color}">
@@ -49,20 +45,16 @@ Category:<select name="classification">
 <br>
 <h3>Search by Title</h3>
 <form name="searchinventory" action="http://digitalcloset.com/find?q={title}">
-<input name="search-title" value=""/>
-<input type="submit"/>
+	<input name="search-title" value=""/>
+	<input type="submit"/>
 </form>
 <hr>
 <h3>View the Global Inventory Collection</h3>
-<form method="get" action"http://digitalcloset.com/allitems/clothing" class="clothing"><input type="radio">All Clothing
-<br>
-<form method="get" action"http://digitalcloset.com/allitems/shoes" class="shoes"><input type="radio">All Shoes
-<br>
-<form method="get" action"http://digitalcloset.com/allitems/accessories" class="accessories"><input type="radio">All Accessories
-<br>
-<form method="get" action"http://digitalcloset.com/allitems" class="allitems"><input type="radio">View All
-<br>
-<input type="submit">
-</form>
+<ul class="queries">
+	<li class="query"><a href="http://digitalcloset.com/allitems/clothing" rel="clothing">All Clothing</a></li>
+	<li class="query"><a href="http://digitalcloset.com/allitems/shoes" rel="shoes">All Shoes</a></li>
+	<li class="query"><a href="http://digitalcloset.com/allitems/accessories" rel="accessories">All Accessories</a></li>
+	<li class="query"><a href="http://digitalcloset.com/allitems" rel="allitems">View All</a></li>
+</ul>
 </body>
 </html>
